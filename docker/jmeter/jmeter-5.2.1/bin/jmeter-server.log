@@ -1,0 +1,33 @@
+2020-06-05 22:01:49,550 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-06-05 22:01:49,564 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2020-06-05 22:01:49,565 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2020-06-05 22:01:49,566 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-06-05 22:01:49,566 INFO o.a.j.JMeter: Version 5.2.1
+2020-06-05 22:01:49,566 INFO o.a.j.JMeter: java.version=1.8.0_201
+2020-06-05 22:01:49,566 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-06-05 22:01:49,566 INFO o.a.j.JMeter: os.name=Windows 10
+2020-06-05 22:01:49,566 INFO o.a.j.JMeter: os.arch=amd64
+2020-06-05 22:01:49,566 INFO o.a.j.JMeter: os.version=10.0
+2020-06-05 22:01:49,566 INFO o.a.j.JMeter: file.encoding=Cp1252
+2020-06-05 22:01:49,566 INFO o.a.j.JMeter: java.awt.headless=true
+2020-06-05 22:01:49,566 INFO o.a.j.JMeter: Max memory     =4294967296
+2020-06-05 22:01:49,566 INFO o.a.j.JMeter: Available Processors =8
+2020-06-05 22:01:49,570 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-06-05 22:01:49,570 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-06-05 22:01:49,570 INFO o.a.j.JMeter: JMeterHome=D:\git\docker-jmeter-sshd\docker\jmeter\jmeter-5.2.1
+2020-06-05 22:01:49,570 INFO o.a.j.JMeter: user.dir  =D:\git\docker-jmeter-sshd\docker\jmeter\jmeter-5.2.1\bin
+2020-06-05 22:01:49,571 INFO o.a.j.JMeter: PWD       =D:\git\docker-jmeter-sshd\docker\jmeter\jmeter-5.2.1\bin
+2020-06-05 22:01:54,122 INFO o.a.j.JMeter: IP: 192.168.144.2 Name: admin-PC FullName: admin-PC
+2020-06-05 22:01:54,132 INFO o.a.j.r.RmiUtils: System property 'java.rmi.server.hostname' is not defined, using localHost address
+2020-06-05 22:01:54,133 INFO o.a.j.r.RmiUtils: Local IP address=192.168.144.2
+2020-06-05 22:01:55,461 INFO o.a.j.r.SSLRMIServerSocketFactory: Created SSLSocket: [SSL: ServerSocket[addr=admin-PC/192.168.144.2,localport=52796]]
+2020-06-05 22:01:55,468 INFO o.a.j.e.RemoteJMeterEngineImpl: Starting backing engine on 1099
+2020-06-05 22:01:55,468 INFO o.a.j.r.RmiUtils: System property 'java.rmi.server.hostname' is not defined, using localHost address
+2020-06-05 22:01:55,469 INFO o.a.j.r.RmiUtils: Local IP address=192.168.144.2
+2020-06-05 22:01:55,469 INFO o.a.j.e.RemoteJMeterEngineImpl: IP address is a site-local address; this may cause problems with remote access.
+	Can be overridden by defining the system property 'java.rmi.server.hostname' - see jmeter-server script file
+2020-06-05 22:01:55,469 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating RMI registry (server.rmi.create=true)
+2020-06-05 22:01:55,469 INFO o.a.j.r.RmiUtils: System property 'java.rmi.server.hostname' is not defined, using localHost address
+2020-06-05 22:01:55,469 INFO o.a.j.r.RmiUtils: Local IP address=192.168.144.2
+2020-06-05 22:01:55,472 INFO o.a.j.r.SSLRMIServerSocketFactory: Created SSLSocket: [SSL: ServerSocket[addr=admin-PC/192.168.144.2,localport=1099]]
+2020-06-05 22:01:55,473 INFO o.a.j.e.RemoteJMeterEngineImpl: Bound to RMI registry on port 1099

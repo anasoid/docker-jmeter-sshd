@@ -1,0 +1,29 @@
+version: '3.7'
+
+services:
+
+     
+  jmeter-master:
+    build:
+     context: ./docker/jmeter
+    image: "jmeter:1"
+    container_name: jmeter-master
+    ports:
+    - "2222:22"
+
+  jmeter-slave1:
+    image: jmeter:1
+    depends_on:
+      - jmeter-master
+    container_name: jmeter-slave1
+    ports:
+    - "2223:22"
+
+  jmeter-slave2:
+    image: jmeter:1
+    depends_on:
+      - jmeter-master
+    container_name: jmeter-slave2
+    ports:
+    - "2224:22"
+    
